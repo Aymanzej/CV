@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mon CV</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            padding: 40px 25px;
+            text-align: center;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        a {
+            flex: 1;
+            padding: 15px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            background: #111;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        a:hover {
+            transform: translateY(-2px);
+            opacity: 0.85;
+        }
+
+        .flag {
+            font-size: 25px;
+            display: block;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Mon CV</h1>
+
+        <p>Choisissez la langue du CV</p>
+
+        <div class="buttons">
+
+            <a href="cv-francais.pdf" target="_blank">
+                <span class="flag">🇫🇷</span>
+                CV Français
+            </a>
+
+            <a href="cv-anglais.pdf" target="_blank">
+                <span class="flag">🇬🇧</span>
+                English CV
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
